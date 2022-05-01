@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noneb.Jet.Analyzer", "Noneb.Jet.Analyzer\Noneb.Jet.Analyzer.csproj", "{F61EEB64-4E01-460F-B0EB-5B5719A8CEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noneb.Jet.Core", "Noneb.Jet.Core\Noneb.Jet.Core.csproj", "{965BFA95-BF21-4A6D-8519-10028358E6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noneb.Jet.Playground", "Noneb.Jet.Playground\Noneb.Jet.Playground.csproj", "{9B14DFA7-E325-4917-80D3-33D273476BE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61EEB64-4E01-460F-B0EB-5B5719A8CEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61EEB64-4E01-460F-B0EB-5B5719A8CEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61EEB64-4E01-460F-B0EB-5B5719A8CEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61EEB64-4E01-460F-B0EB-5B5719A8CEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965BFA95-BF21-4A6D-8519-10028358E6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965BFA95-BF21-4A6D-8519-10028358E6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965BFA95-BF21-4A6D-8519-10028358E6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965BFA95-BF21-4A6D-8519-10028358E6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B14DFA7-E325-4917-80D3-33D273476BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B14DFA7-E325-4917-80D3-33D273476BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B14DFA7-E325-4917-80D3-33D273476BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B14DFA7-E325-4917-80D3-33D273476BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
