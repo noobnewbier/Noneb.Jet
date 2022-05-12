@@ -2,16 +2,11 @@
 
 namespace Noneb.Jet.Playground.Coffee.ManualDi;
 
-public interface ILatteMakerComponent
-{
-    CoffeeMaker CoffeeMaker { get; }
-}
-
-public class LatteMakerComponent : ILatteMakerComponent
+public class ManualLatteMakerComponent : ILatteMakerComponent
 {
     private readonly LatteModule _latteModule;
 
-    public LatteMakerComponent(LatteModule latteModule)
+    public ManualLatteMakerComponent(LatteModule latteModule)
     {
         _latteModule = latteModule;
     }
