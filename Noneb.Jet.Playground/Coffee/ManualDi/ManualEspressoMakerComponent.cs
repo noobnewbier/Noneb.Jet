@@ -1,4 +1,5 @@
 ﻿using Noneb.Jet.Playground.Coffee.Core.CoffeeMakers;
+using Noneb.Jet.Playground.Coffee.Di;
 
 namespace Noneb.Jet.Playground.Coffee.ManualDi;
 

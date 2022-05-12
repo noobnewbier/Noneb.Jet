@@ -1,4 +1,6 @@
-﻿namespace Noneb.Jet.Playground.Coffee.ManualDi;
+﻿using Noneb.Jet.Playground.Coffee.Di;
+
+namespace Noneb.Jet.Playground.Coffee.ManualDi;
 
 public static class ManualJet
 {
