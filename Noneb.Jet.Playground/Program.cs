@@ -1,4 +1,5 @@
-﻿using Noneb.Jet.Playground.Coffee.ManualDi;
+﻿using Noneb.Jet.Playground.Coffee.Di;
+using Noneb.Jet.Playground.Coffee.ManualDi;
 
 ManualCoffeeMakerTest();
 
