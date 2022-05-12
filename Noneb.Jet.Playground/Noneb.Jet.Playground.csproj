@@ -9,8 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Noneb.Jet.Analyzer\Noneb.Jet.Analyzer.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer"/>
-        <ProjectReference Include="..\Noneb.Jet.Core\Noneb.Jet.Core.csproj"/>
+        <ProjectReference Include="..\Noneb.Jet.Analyzer\Noneb.Jet.Analyzer.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+        <ProjectReference Include="..\Noneb.Jet.Core\Noneb.Jet.Core.csproj" />
     </ItemGroup>
 
 </Project>
