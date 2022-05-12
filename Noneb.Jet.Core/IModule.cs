@@ -1,7 +1,5 @@
-﻿namespace Noneb.Jet.Core
+﻿namespace Noneb.Jet.Core;
+
+public interface IModule
 {
-    public interface IModule
-    {
-        
-    }
 }

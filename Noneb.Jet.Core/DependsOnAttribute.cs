@@ -1,13 +1,12 @@
-﻿namespace Noneb.Jet.Core
-{
-    [AttributeUsage(AttributeTargets.Interface)]
-    public class DependsOnAttribute : Attribute
-    {
-        public DependsOnAttribute(params Type[] components)
-        {
-            Components = components;
-        }
+﻿namespace Noneb.Jet.Core;
 
-        public Type[] Components { get; }
+[AttributeUsage(AttributeTargets.Interface)]
+public class DependsOnAttribute : Attribute
+{
+    public DependsOnAttribute(params Type[] components)
+    {
+        Components = components;
     }
+
+    public Type[] Components { get; }
 }
