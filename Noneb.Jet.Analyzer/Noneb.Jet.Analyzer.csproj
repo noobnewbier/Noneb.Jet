@@ -17,4 +17,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Noneb.Jet.Core\Noneb.Jet.Core.csproj" />
+    </ItemGroup>
+
 </Project>

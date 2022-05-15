@@ -4,7 +4,7 @@ using Noneb.Jet.Playground.Coffee.ManualDi;
 
 namespace Noneb.Jet.Playground.Coffee.Di;
 
-[Requires(typeof(LatteModule))]
+[Component, Requires(typeof(LatteModule))]
 public interface ILatteMakerComponent
 {
     CoffeeMaker CoffeeMaker { get; }

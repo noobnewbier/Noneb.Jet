@@ -2,7 +2,7 @@
 
 namespace Noneb.Jet.Playground.Coffee.ManualDi;
 
-public static class ManualJet
+public static class ManualComponentFactory
 {
     public static ILatteMakerComponent CreateLatteMakerComponent(LatteModule latteModule) =>
         new ManualLatteMakerComponent(latteModule);

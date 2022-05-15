@@ -1,6 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Text;
+using Noneb.Jet.Core;
 
 namespace Noneb.Jet.Analyzer;
 
@@ -14,21 +16,19 @@ public class ExampleSourceGenerator : ISourceGenerator
         var sourceBuilder = new StringBuilder(
             @"
             using System;
-            namespace ExampleSourceGenerated
+            namespace Noneb.Jet.Core;
+            public static partial class ExampleSourceGenerated
             {
-                public static class ExampleSourceGenerated
+                public static string GetTestText() 
                 {
-                    public static string GetTestText() 
-                    {
-                        return ""This is from source generator "
+                    return ""This is from source generator "
         );
 
         sourceBuilder.Append(DateTime.Now.ToString());
 
         sourceBuilder.Append(
             @""";
-                    }
-    }
+                }
 }
 "
         );
